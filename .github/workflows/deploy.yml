@@ -2,7 +2,7 @@ name: Deploy Quartz
 on:
   push:
     branches:
-      - main  # 만약 현재 브랜치가 v4라면 v4로 고치세요. 잘 모르겠으면 일단 main으로 두세요.
+      - v4  # 만약 현재 브랜치가 v4라면 v4로 고치세요. 잘 모르겠으면 일단 main으로 두세요.
 permissions:
   contents: read
   pages: write
